@@ -15,7 +15,6 @@ html {
 
 
 body {
-
     font-family:
         -apple-system,
         BlinkMacSystemFont,
@@ -25,13 +24,19 @@ body {
         Arial,
         sans-serif;
 
-    background: #e6edf5;
+    background: linear-gradient(
+        135deg,
+        #e4eef8 0%,
+        #f1edf6 50%,
+        #e5eef3 100%
+    );
+
+    background-attachment: fixed;
 
     color: #20242a;
 
     line-height: 1.7;
 }
-
 
 a {
     color: inherit;
